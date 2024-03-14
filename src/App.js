@@ -1,12 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+
+
+import Buttoncomponent from './components/functions/button/btnn';
+import Orderdlist from './components/functions/list/orderlist/oll';
+import Unorderdlist from './components/functions/list/unorderdlist/ull';
+import Tablecomponent from './components/functions/table/table';
+
+
+import Imagecomponent from './components/image/img';
+
+
+
 
 function App() {
   return (
     <div>
-      <h1> hello </h1>
-    </div>
     
+    <Imagecomponent></Imagecomponent>
+   
+    <Buttoncomponent></Buttoncomponent>
+    <Orderdlist></Orderdlist>
+    <Unorderdlist></Unorderdlist>
+    <Tablecomponent> </Tablecomponent>
+    
+    
+
+    
+    </div>
   );
 }
 
